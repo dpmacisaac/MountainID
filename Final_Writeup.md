@@ -35,7 +35,7 @@ Once I finally got the DataGenerators to correctly work with my images I followe
 Training: graphs of the accuracy and loss of my model as it trained:
 ![alt text](info_pics/training.png)
 
-Testing: I tested it on a test set and here is the output (ignore the "without fine tuning" I forgot to remove that print statement)
+Testing: I tested it on the test set (of 3460 fairly equally distributed images) and here is the output (ignore the "without fine tuning" I forgot to remove that print statement before running it for screenshots)
 ![alt text](info_pics/testing.png)
 
 I didn't end up using an F1 test but I did use this heatmap function to generate this which shows that there is not much overpredicting for any one mountain:
